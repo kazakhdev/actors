@@ -1,0 +1,23 @@
+.app{
+  display:flex;
+  flex-wrap:wrap;
+  width:800px;
+  margin:auto;
+}
+.movies{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+.actor{
+  max-width:23%;
+}
+
+p{
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+img{
+  display: inline-block;
+}
